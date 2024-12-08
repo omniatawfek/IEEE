@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Card</title>
+    <link rel="stylesheet" href="card.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div class="card">
+            <div class="image">
+                <picture>
+                    <source srcset="images/image-product-mobile.jpg" media="(max-width: 426px)">
+                    <source srcset="images/image-product-desktop.jpg" media="(min-width: 426px)">
+                    <img src="images/image-product-desktop.jpg" alt="Product Image">
+                </picture>
+            </div>
+            <div class="box">
+                <div class="text">
+                    <p>Perfume</p>
+                    <h1>Gabrielle Essence Eau De Parfum</h1>
+                    <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                </div>
+                <div class="price">
+                    <h2>$149.99</h2>
+                    <p><del>$169.99</del></p>
+                </div>
+                <button>
+                    <img src="images/icon-cart.svg" alt="Cart Icon">
+                    Add to Cart
+                </button>
+            </div>
+        </div>
+</body>
+</html>
